@@ -1,0 +1,863 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# IND CYBER ARMY
+# coded Dry_Ica_Tuan-Arr 
+# PangeranAr
+
+
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+lightred='\e[1;31m'
+yellow='\e[1;33m'
+
+###################################################
+# CTRL C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo "[#]> (Ctrl + C ) Detected, Trying To Exit ... "| lolcat
+sleep 1
+echo ""
+echo "[#]> Terima kasih sudah make tools saya ... "| lolcat
+sleep 1
+echo ""
+echo "[#]> IND CYBER ARMY"| lolcat
+read enter
+exit
+}
+
+
+
+echo "$okegreen"
+echo "     oooooooooooooooooooooooooooooooooooooooooooooooo"
+echo "     o          ###  # ##   # ###    #              o"
+echo "     o          #  # # # #  # #  #  # #             o"
+echo "     o          #  # # #  # # #  # # # #            o"
+echo "     o          ###  # #   #  ### #     #           o"
+echo "     oooooooooooooooooooooooooooooooooooooooooooooooo"
+echo ""
+echo ""
+echo "     ***********************************************"
+echo "     # Not Hacker Im Tester                        *" 
+echo "     # IND CYBER ARMY                              *"
+echo "     # contact   : arfiyan1578@gmail.com           *"
+echo "     # greetz    : IND CYBER ARMY                  *"
+echo "     # copyright : DRY_ICA_TUAN-AR                 *"
+echo "     ***********************************************"
+echo ""
+echo ""
+echo ""
+echo "  <==========================>"
+echo "  >|< 00) Hack token PLN   >|<"
+echo "  >|< 01) Info Bmkg        >|<"
+echo "  >|< 02) Webdav           >|<"
+echo "  >|< 03) Hack Fb          >|<"
+echo "  >|< 04) Tools Tuan Badut >|<"
+echo "  >|< 05) Ddos             >|<"
+echo "  >|< 06) Spam SMS         >|<"
+echo "  >|< 07) Metasploit       >|<"
+echo "  >|< 08) sholat           >|<"
+echo "  >|< 09) Hash Killer      >|<"
+echo "  >|< 10) sqlmap           >|<"
+echo "  >|< 11) wifite           >|<"
+echo "  >|< 12) IPGeolocation    >|<"
+echo "  >|< 13) mail-spammer     >|<"
+echo "  >|< 14) wifiphisher      >|<"
+echo "  >|< 15) BotFb            >|<"
+echo "  >|< 16) botkomen Fb      >|<"
+echo "  >|< 17) OSIF             >|<"
+echo "  >|< 18) Brutesploit      >|<"
+echo "  >|< 19) Hack IG 2        >|<"
+echo "  >|< 20) RED_HAWK         >|<"
+echo "  >|< 21) B4J1N64Nv5       >|<"
+echo "  >|< 22) AdminFinder      >|<"
+echo "  >|< 23) Mr.Rv1.1         >|<"
+echo "  >|< 24) 4wsectools       >|<"
+echo "  >|< 25) fsociety         >|<"
+echo "  >|< 26) admin penal      >|<"
+echo "  >|< 27) Hash-Buster      >|<"
+echo "  >|< 28) tool ubuntu      >|<"
+echo "  >|< 29) FakeServers      >|<"
+echo "  >|< 30) pinokiyossh      >|<"
+echo "  >|< 31) BruteforceIG     >|<"
+echo "  >|< 32) FB-React         >|<"
+echo "  >|< 33) indotagram       >|<"
+echo "  >|< 34) kkktp            >|<"
+echo "  >|< 35) CreaterVirus     >|<"
+echo "  >|< 36) santet-online    >|<"
+echo "  >|< 37) PhisingGame      >|<"
+echo "  >|< 38) wifi-hacker      >|<"
+echo "  >|< 39) Spammer-Grab     >|<"
+echo "  >|< 40) lazymux          >|<"
+echo "  >|< 41) diejoubu         >|<"
+echo "  >|< 42) Spam jdid        >|<"
+echo "  >|< 43) kalinethunter    >|<"
+echo "  >|< 44) katoolin         >|<"
+echo "  >|< 45) whatshack        >|<"
+echo "  >|< 46) D-TECH           >|<"
+echo "  >|< 47) weeman           >|<"
+echo "  >|< 48) xNot_Found       >|<"
+echo "  >|< 49) wifiphisher      >|<"
+echo "  >|< 50) viSQL            >|<"
+echo "  >|< 51) exit             >|<"
+echo "  <==========================>"
+echo "╭─[PILIH NOMORNYA]"
+read -p "╰─=Tester=" act;
+
+
+
+if [ $act = 00 ] || [ $act = 00 ]
+then
+clear
+echo " Installing Hack Token PLN "| lolcat
+sleep 1
+figlet "token" | lolcat
+figlet "PLN"| lolcat
+figlet "di hack"| lolcat
+figlet "Hargai"| lolcat
+figlet "pekerjaan"| lolcat
+figlet "Mereka"| lolcat
+figlet "goblog"| lolcat
+echo " Done Install Cuk "| lolcat
+fi
+
+
+if [ $act = 01 ] || [ $act = 01 ]
+then
+clear
+echo " Installing Info Bmkg"| lolcat
+sleep 1
+apt update && apt upgrade
+apt install python2
+apt install php
+apt install git
+git clone https://github.com/arfiyan/Gempa-IND.git
+cd Gempa-IND
+php PeriKecil.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 02 ] || [ $act = 02 ]
+then
+clear
+echo " Installing Webdav"| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python python2 vim figlet curl
+pkg install php
+pip2 install lolcat
+pkg install git
+git clone https://github.com/arfiyan/IND-CYBER-ARMY.git
+cd IND-CYBER-ARMY
+sh WEBDAV_DRY.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 03 ] || [ $act = 03 ]
+then
+clear
+echo " Installing Hack Fb"| lolcat
+sleep 1
+pkg update
+pkg upgrade
+pkg install python2
+pip2 install mechanize
+pkg install git
+git clone https://github.com/pirmansx/mbf
+cd mbf
+python2 MBF.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 04 ] || [ $act = 04 ]
+then
+clear
+echo " Installing Tools Tuan Badut"| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python python2 vim figlet curl
+pkg install php
+pip2 install lolcat
+pkg install git
+git clone https://github.com/TUANB4DUT/TOOLSINSTALLERv4
+cd TOOLSINSTALLERv4
+ls
+chmod 777 TUANB4DUT..sh
+./TUANB4DUT..sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 05 ] || [ $act = 05 ]
+then
+clear
+echo " Installing Ddos"| lolcat
+clear
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install python
+git clone https://github.com/cyweb/hammer.git
+cd hammer
+python hammer.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 06 ] || [ $act = 06 ]
+then
+clear
+echo " Installing Spam SMS"| lolcat
+clear
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+pkg install figlet
+pkg install php
+pkg install toilet
+git clone https://github.com/KANG-NEWBIE/SpamSms
+cd SpamSms
+php sms.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 07 ] || [ $act = 07 ]
+then
+clear
+echo " Installing Metasploit"| lolcat
+clear
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/Hax4us/Metasploit_termux
+cd Metasploit_termux
+chmod +x metasploit.sh
+./metasploit.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 08 ] || [ $act = 08 ]
+then
+clear
+echo " Installing sholat"| lolcat
+clear
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/karjok/sholat/
+cd sholat
+pip install -r modul.txt
+python sholat.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 09 ] || [ $act = 09 ]
+then
+clear
+echo " Installing Hash Killer"| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/FajriHidayat088/FHX-Hash-Killer/
+cd FHX-Hash-Killer
+python2 FHXHashKiller.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 10 ] || [ $act = 10 ]
+then
+clear
+echo " Installing sqlmap"| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/sqlmapproject/sqlmap cd sqlmap
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 11 ] || [ $act = 11 ]
+then
+clear
+echo " Installing wifite "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/derv82/wifite
+cd wifite
+python2 wifite.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 12 ] || [ $act = 12 ]
+then
+clear
+echo " Installing IPGeolocation "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/maldevel/IPGeolocation
+cd IPGeolocation
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 13 ] || [ $act = 13 ]
+then
+clear
+echo " Installing mail spammer "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/revan-ar/mail-spammer
+cd mail-spammer
+php mail.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 14 ] || [ $act = 14 ]
+then
+clear
+echo " Installing wifiphisher "| lolcat
+sleep 1
+apt-get install git
+pip install scapy
+git clone https://github.com/wifiphisher/wifiphisher.git
+cd wifiphisher
+python wifiphisher
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 15 ] || [ $act = 15 ]
+then
+clear
+echo " Installing BotFb "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/Senitopeng/BotFbBangDjon.git
+cd BotFbBangDjon
+python2 bangdjon.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 16 ] || [ $act = 16 ]
+then
+clear
+echo " Installing botkomen Fb "| lolcat
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install python2
+pip2 install mechanize
+git clone https://github.com/Senitopeng/
+Botkomena.git
+cd Botkomena
+python2 botkomena.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 17 ] || [ $act = 17 ]
+then
+clear
+echo " Installing OSIF "| lolcat
+sleep 1
+pkg install python2
+git clone https://github.com/ciku370/OSIF
+cd OSIF
+pip2 install -r requirements.txt
+python2 osif.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 18 ] || [ $act = 18 ]
+then
+clear
+echo " Installing Brutesploit "| lolcat
+sleep 1
+apt update && apt upgrade -y
+git clone https://github.com/Screetsec/BruteSploit
+cd BruteSploit
+chmod +x Brutesploit
+./Brutesploit
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 19 ] || [ $act = 19 ]
+then
+clear
+echo " Installing Hack IG 2 "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python
+pkg install git
+pkg install nano
+git clone https://github.com/Senitopeng/instabot.git
+ls
+cd instabot
+ls
+chmod +x instabot
+./instabot
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 20 ] || [ $act = 20 ]
+then
+clear
+echo " Installing RED_HAWK "| lolcat
+sleep 1
+apt update
+apt install git
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd RED_HAWK
+chmod +x rhawk.php
+apt install php
+ls
+php rhawk.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 21 ] || [ $act = 21 ]
+then
+clear
+echo " Installing B4J1N64Nv5 "| lolcat
+sleep 1
+pkg install update
+pkg install git
+pkg install toilet
+pkg install figlet
+pip2 install lolcat
+git clone https://github.com/DarknessCyberTeam/B4J1N64Nv5
+cd B4J1N64Nv5
+sh B4J1N64N.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 22 ] || [ $act = 22 ]
+then
+clear
+echo " Installing AdminFinder "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/AdheBolo/AdminFinder
+ls
+cd AdminFinder
+chmod 777 AdminFinder.py
+python2 AdminFinder.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 23 ] || [ $act = 23 ]
+then
+clear
+echo " Installing Mr.Rv1.1 "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install git
+pkg install gem
+pkg install figlet
+gem install lolcat
+git clone https://github.com/Mr-R225/Mr.Rv1.1
+cd Mr.Rv1.1
+sh Mr.Rv1.1.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 24 ] || [ $act = 24 ]
+then
+clear
+echo " Installing 4wsectools "| lolcat
+sleep 1
+apt update && apt upgrade
+apt install git
+git clone https://github.com/aryanrtm/4wsectools
+cd 4wsectools
+chmod 777 tools
+./tools
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 25 ] || [ $act = 25 ]
+then
+clear
+echo " Installing fsociety "| lolcat
+sleep 1
+git clone https://github.com/manisso/fsociety
+cd fsociety
+./install.sh
+ls
+python2 fsociety.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 26 ] || [ $act = 26 ]
+then
+clear
+echo " Installing admin penal "| lolcat
+sleep 1
+pkg install git
+git clone https://github.com/Techzindia/admin_penal
+cd admin_penal
+chmod +x admin_panel_finder.py
+python2 admin_panel_finder.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 27 ] || [ $act = 27 ]
+then
+clear
+echo " Installing Hash-Buster "| lolcat
+sleep 1
+apt update
+apt upgrade
+apt install python2
+apt install git
+git clone https://github.com/UltimateHackers/Hash-Buster
+cd Hash-Buster
+python2 hash.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 28 ] || [ $act = 28 ]
+then
+clear
+echo " Installing tool ubuntu "| lolcat
+sleep 1
+apt update
+apt install git
+apt install wget
+apt install proot
+git clone https://github.com/Neo-Oli/termux-ubu&#8230;
+cd termux-ubuntu
+chmod +x ubuntu.sh
+./ubuntu.sh
+./start.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 29 ] || [ $act = 29 ]
+then
+clear
+echo " Installing FakeServers "| lolcat
+sleep 1
+pkg install git
+git clone https://github.com/Infected14741/FakeServers.git
+cd FakeServers
+bash Infected.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 30 ] || [ $act = 30 ]
+then
+clear
+echo " Installing pinokiyossh "| lolcat
+sleep 1
+pkg install git
+pkg install python2
+pkg install python
+git clone http://github.com/pinokiyossh/safa.git
+pkg install pip
+pkg install pip2
+pip install request
+pkg install sh
+sh Login.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 31 ] || [ $act = 31 ]
+then
+clear
+echo " Installing BruteforceIG "| lolcat
+sleep 1
+pkg install git
+git clone https://github.com/Infected14741/CMN-BruteforceIG.git
+cd CMN-BruteforceIG
+sh AOFSFOF.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 32 ] || [ $act = 32 ]
+then
+clear
+echo " Installing FB-React "| lolcat
+sleep 1
+git clone https://github.com/AMVengeance/FB-React.git
+chmod +x FB-React -R
+cd FB-React
+./start
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 33 ] || [ $act = 33 ]
+then
+clear
+echo " Installing indotagram "| lolcat
+sleep 1
+git clone https://github.com/indogram/indotagram.git 
+php indotagram/login.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 34 ] || [ $act = 34 ]
+then
+clear
+echo " Installing kkktp "| lolcat
+sleep 1
+pkg install php git
+git clone https://github.com/IndonesianSecurity/kkktp
+cd kkktp
+php kkktp.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 35 ] || [ $act = 35 ]
+then
+clear
+echo " Installing CreaterVirus "| lolcat
+sleep 1
+git clone https://github.com/viruz09/CreaterVirus
+cd CreaterVirus
+python2 creater.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 36 ] || [ $act = 36 ]
+then
+clear
+echo " Installing santet-online "| lolcat
+sleep 1
+git clone https://github.com/Gameye98/santet-online
+cd santet-online
+python2 santet.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 37 ] || [ $act = 37 ]
+then
+clear
+echo " Installing PhisingGame "| lolcat
+sleep 1
+git clone https://github.com/Senitopeng/PhisingGame.git
+cd PhisingGame
+python2 phising.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 38 ] || [ $act = 38 ]
+then
+clear
+echo " Installing wifi-hacker "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install git
+git clone https://github.com/esc0rtd3w/wifi-hacker
+cd wifi-hacker/
+chmod +x wifi-hacker.sh
+./wifi-hacker.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 39 ] || [ $act = 39 ]
+then
+clear
+echo " Installing Spammer-Grab "| lolcat
+sleep 1
+pkg install python2 git
+pip2 install requests
+git clone https://github.com/p4kl0nc4t/Spammer-Grab
+cd Spammer-Grab
+chmod +x spammer.py
+python2 spammer.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 40 ] || [ $act = 40 ]
+then
+clear
+echo " Installing lazymux "| lolcat
+sleep 1
+pkg update && upgrade
+pkg install python2 git
+git clone https://github.com/Gameye98/Lazymux
+cd Lazymux
+chmod +x lazymux.py
+python2 lazymux.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 41 ] || [ $act = 41 ]
+then
+clear
+echo " Installing diejoubu "| lolcat
+sleep 1
+apt upgrade && apt update
+apt install php git
+git clone https://github.com/alintamvanz/diejoubu
+cd diejoubu
+cd v1.2
+php diejoubu.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 42 ] || [ $act = 42 ]
+then
+clear
+echo " Installing Spam jdid "| lolcat
+sleep 1
+pkg install php curl
+pkg install cURL
+curl https://pastebin.com/raw/9BYy1 JVc -o jdid.php
+php jdid.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 43 ] || [ $act = 43 ]
+then
+clear
+echo " Installing kalinethunter "| lolcat
+sleep 1
+apt update
+apt install git
+git clone https://github.com/Hax4us/Nethunter-In-Termux.git
+cd Nethunter
+chmod +x kalinethunter
+./kalinethunter
+./startkali.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 44 ] || [ $act = 44 ]
+then
+clear
+echo " Installing katoolin "| lolcat
+sleep 1
+pkg update
+pkg upgrade
+pkg install git python2 gnupg nano
+git clone https://github.com/LionSec/katoolin
+cd katoolin
+python2 katoolin.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 45 ] || [ $act = 45 ]
+then
+clear
+echo " Installing whatshack "| lolcat
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install curl
+git clone https://github.com/AndriGanz/whatshack
+cd whatshack
+ls
+sh whatshack.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 46 ] || [ $act = 46 ]
+then
+clear
+echo " Installing D-TECH "| lolcat
+sleep 1
+apt install git
+apt install python2
+git clone https://github.com/shawarkhanethicalhacker/D-TECT
+ls
+cd D-TECH
+chmod +x d-tect.py
+python2 d-tect.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 47 ] || [ $act = 47 ]
+then
+clear
+echo " Installing weeman "| lolcat
+sleep 1
+pkg update
+pkg upgrade
+pkg install python2
+pkg install git
+clear
+git clone https://github.com/evait-secutiry/weeman.git
+cd
+ls
+cd weeman
+python2 weeman.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 48 ] || [ $act = 48 ]
+then
+clear
+echo " Installing xNot_Found "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install git
+pkg install gem
+pkg install figlet
+gem install lolcat
+git clone https://github.com/hatakecnk/xNot_Found
+cd xNot_Found
+sh xNot_Found.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 49 ] || [ $act = 49 ]
+then
+clear
+echo " Installing wifiphisher "| lolcat
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install python python-pip python-setuptools
+pip install scapy
+git clone https://github.com/wifiphisher/wifiphisher.git
+cd wifiphisher
+cd wifiphisher
+python wifiphisher
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 50 ] || [ $act = 50 ]
+then
+clear
+echo " Installing viSQL "| lolcat
+sleep 1
+apt update
+apt install python2
+apt install git
+git clone https://github.com/blackvkng/viSQL
+cd viSQL
+python2 -m pip install -r requirements.txt
+python2 viSQL.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 51 ] || [ $act = 51 ]
+then
+echo " DRY "| lolcat
+sleep 1
+echo " IM TESTER"| lolcat
+sleep 1
+echo " Please Wait.... "| lolcat
+sleep 1
+echo "  " | lolcat 
+sleep 1
+echo " Datang Lagi Ya sayang :* "| lolcat
+sleep 1
+figlet "DRY" | lolcat
+exit
+fi
