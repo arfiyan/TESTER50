@@ -103,7 +103,27 @@ echo "  >|< 47) weeman           >|<"
 echo "  >|< 48) xNot_Found       >|<"
 echo "  >|< 49) wifiphisher      >|<"
 echo "  >|< 50) viSQL            >|<"
-echo "  >|< 51) exit             >|<"
+echo "  >|< 51) Multi Spam       >|<"
+echo "  >|< 52) hasher           >|<"
+echo "  >|< 53) Breacher         >|<"
+echo "  >|< 54) SocialFish       >|<"
+echo "  >|< 55) cupp             >|<"
+echo "  >|< 56) LITESPAM         >|<"
+echo "  >|< 57) pemulungBTC      >|<"
+echo "  >|< 58) ko-dork          >|<"
+echo "  >|< 59) lhst             >|<"
+echo "  >|< 60) TheFatRat        >|<"
+echo "  >|< 61) ngrok            >|<"
+echo "  >|< 62) lokomedia        >|<"
+echo "  >|< 63) kalinethunter    >|<"
+echo "  >|< 64) joomscan         >|<"
+echo "  >|< 65) VulnScaner       >|<"
+echo "  >|< 66) Installer        >|<"
+echo "  >|< 67) Fucking-Rat      >|<"
+echo "  >|< 68) fedora           >|<"
+echo "  >|< 69) infoga           >|<"
+echo "  >|< 70) ezsploit         >|<"
+echo "  >|< 71) exit             >|<"
 echo "  <==========================>"
 echo "╭─[PILIH NOMORNYA]"
 read -p "╰─=Tester=" act;
@@ -675,10 +695,10 @@ echo " Installing Spammer-Grab "| lolcat
 sleep 1
 pkg install python2 git
 pip2 install requests
-git clone https://github.com/p4kl0nc4t/Spammer-Grab
+git clone https://github.com/Noxturnix/Spammer-Grab
 cd Spammer-Grab
-chmod +x spammer.py
-python2 spammer.py
+echo "cara mengunakannya"
+echo "python2 spammer.py 085248757085 --delay 50"
 echo " Done Install Cuk "| lolcat
 fi
 
@@ -847,6 +867,322 @@ echo " Done Install Cuk "| lolcat
 fi
 
 if [ $act = 51 ] || [ $act = 51 ]
+then
+clear
+echo "Installing Multi Spam"
+sleep 1
+apt update && apt upgrade
+apt install python2
+apt install python
+apt install git
+git clone https://github.com/Kereh/MultiSpam
+mv MultiSpam $HOME
+cd $HOME/MultiSpam
+read -p "==== nomer target awalan [62] contoh 628xxxx===>" target
+python2 Multispam.py --count=1000 target
+sleep 1
+fi
+
+if [ $act = 52 ] || [ $act = 52 ]
+then
+clear
+echo " Installing hasher "| lolcat
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install python
+apt install python2
+git clone https://github.com/CiKu370/hasher.git
+mv hasher $HOME
+cd $HOME/hasher
+python2 hash.py 
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 53 ] || [ $act = 53 ]
+then
+clear
+echo " Installing Breacher "| lolcat
+sleep 1
+pkg install python2
+pkg install git
+git clone https://github.com/UltimateHackers/Breacher.git
+mv Breacher $HOME
+cd $HOME/Breacher
+python2 breacher.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 54 ] || [ $act = 54 ]
+then
+clear
+echo " Installing SocialFish "| lolcat
+sleep 1
+pkg install php
+pkg install python2
+pkg install git
+pkg install curl
+git clone https://github.com/Lexiie/SocialFish.git
+mv SocialFish $HOME
+cd $HOME/SocialFish
+pip2 install wget
+python2 SocialFish.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 55 ] || [ $act = 55 ]
+then
+clear
+echo " Installing cupp "| lolcat
+sleep 1
+pkg install git
+pkg install python2
+git clone https://github.com/mebus/cupp.git
+mv cupp $HOME
+cd $HOME/cupp
+python2 cupp.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 56 ] || [ $act = 56 ]
+then
+clear
+echo " Installing LITESPAM "| lolcat
+sleep 1
+pkg install python2
+pkg install php
+pkg install cowsay
+pkg install toilet
+pkg install ruby
+gem install lolcat
+pkg install git
+git clone https://github.com/4L13199/LITESPAM.git
+mv LITESPAM $HOME
+cd $HOME/LITESPAM
+sh LITESPAM.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 57 ] || [ $act = 57 ]
+then
+clear
+echo " Installing pemulungBTC "| lolcat
+sleep 1
+pkg install python
+pkg install git
+pkg install php
+git clone https://github.com/Cvar1984/pemulungBTC.git
+mv pemulungBTC $HOME
+cd $HOME/pemulungBTC
+php autoload.php
+php mulung.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 58 ] || [ $act = 58 ]
+then
+clear
+echo " Installing ko-dork "| lolcat
+sleep 1
+pkg install git 
+pkg install python2
+git clone https://github.com/ciku370/ko-dork.git
+mv ko-dork $HOME
+cd $HOME/ko-dork
+python2 dork.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 59 ] || [ $act = 59 ]
+then
+clear
+echo " Installing lhst "| lolcat
+sleep 1
+pkg install python2
+pkg install git
+git clone https://github.com/CiKu370/lhst
+mv lhst $HOME
+cd $HOME/lhst
+python2 lhst.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 60 ] || [ $act = 60 ]
+then
+clear
+echo " Installing TheFatRat "| lolcat
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/Screetsec/TheFatRat.git
+mv TheFatRat $HOME
+cd $HOME/TheFatRat
+chmod +x setup.sh 
+./setup.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 61 ] || [ $act = 61 ]
+then
+clear
+echo " Installing ngrok "| lolcat
+sleep 1
+apt update && apt upgrade
+apt install wget
+mkdir ngrok
+cd ~/ngrok
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+mv ngrok-stable-linux-arm.zip $HOME
+$HOME/unzip ngrok-stable-linux-arm.zip
+cd ~/
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 62 ] || [ $act = 62 ]
+then
+clear
+echo " Installing lokomedia "| lolcat
+sleep 1
+apt update && apt upgrade
+pkg install php
+pkg install wget
+wget https://pastebin.com/raw/sPpJRjCZ -O lokomedia.php
+mv lokomedia.php $HOME
+cd
+php lokomedia.php
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 63 ] || [ $act = 63 ]
+then
+clear
+echo " Installing kalinethunter "| lolcat
+sleep 1
+apt update 
+apt upgrade
+apt install git
+git clone https://github.com/Hax4us/Nethunter-In-Termux.git
+mv Nethunter-In-Termux $HOME
+cd $HOME/Nethunter-In-Termux
+chmod 777 kalinethunter
+sh kalinethunter
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 64 ] || [ $act = 64 ]
+then
+clear
+echo " Installing joomscan "| lolcat
+sleep 1
+apt update 
+apt upgrade
+apt install git
+apt install perl
+git clone https://github.com/rezasp/joomscan.git
+mv joomscan $HOME
+cd $HOME/joomscan
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 65 ] || [ $act = 65 ]
+then
+clear
+echo " Installing VulnScaner "| lolcat
+sleep 1
+apt update 
+apt upgrade
+apt install git
+apt install python2
+git clone https://github.com/kereh/VulnScaner
+mv VulnScaner $HOME
+cd $HOME/VulnScaner
+python2 VulnScaner.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 66 ] || [ $act = 66 ]
+then
+clear
+echo " Installing Installer "| lolcat
+sleep 1
+apt update 
+apt upgrade
+apt install git
+apt install python2
+git clone https://github.com/kereh/HN-Installer
+mv HN-Installer $HOME
+cd $HOME/HN-Installer
+python2 HN-Install.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 67 ] || [ $act = 67 ]
+then
+clear
+echo " Installing Fucking-Rat "| lolcat
+sleep 1
+apt update 
+apt upgrade
+apt install git
+apt install python2
+git clone https://github.com/kereh/Fucking-Rat
+mv Fucking-Rat $HOME
+cd $HOME/Fucking-Rat
+python2 fr.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 68 ] || [ $act = 68 ]
+then
+clear
+echo " Installing fedora "| lolcat
+sleep 1
+apt update && apt upgrade
+apt-get install git
+apt install wget
+git clone https://github.com/nmilosev/termux-fedora.git
+mv termux-fedora $HOME
+cd $HOME/termux-fedora
+chmod +x termux-fedora.sh
+sh termux-fedora.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 69 ] || [ $act = 69 ]
+then
+clear
+echo " Installing infoga "| lolcat
+sleep 1
+aptupdate
+apt upgrade
+pkg install python
+apt install git
+git clone https://github.com/m4ll0k/Infoga.git infoga
+sleep 1
+mv infoga $HOME
+cd $HOME/infoga
+pip install -r req
+python2 infoga.py
+echo " Done Install Cuk "| lolcat
+fi
+
+if [ $act = 70 ] || [ $act = 70 ]
+then
+clear
+echo " Installing ezsploit "| lolcat
+sleep 1
+apt update
+apt upgrade
+apt install git
+git clone https://github.com/rand0m1ze/ezsploit
+mv ezsploit $HOME
+cd $HOME/ezsploit
+bash ezsploit.sh
+echo " Done Install Cuk "| lolcat
+fi
+
+
+if [ $act = 71 ] || [ $act = 71 ]
 then
 echo " DRY "| lolcat
 sleep 1
